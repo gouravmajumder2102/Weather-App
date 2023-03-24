@@ -1,0 +1,25 @@
+.navbar{
+    position: fixed;
+    width: 100vw;
+    height: 5vw;
+}
+.mainContainer
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(weather1.jpg);
+
+   width: auto;
+   height: 92vh;
+
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.footer{
+    position: fixed;
+    width:100vw ;
+    height: 6vw;
+    background-color: #b5edf7;
+    color:black;
+   }
