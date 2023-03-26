@@ -1,25 +1,24 @@
-.navbar{
-    position: fixed;
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(weather1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.navbar {
+
     width: 100vw;
     height: 5vw;
 }
-.mainContainer
-{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-image: url(weather1.jpg);
 
-   width: auto;
-   height: 92vh;
-
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-.footer{
+.footer {
     position: fixed;
-    width:100vw ;
-    height: 6vw;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #b5edf7;
-    color:black;
-   }
+    color: black;
+}
